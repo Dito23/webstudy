@@ -57,7 +57,7 @@ function App() {
           </Routes>
 
           {/* Display the "Logging out..." message if loggingOut state is true */}
-          {loggingOut && <div className="logging-out-message">Logging out..</div>}
+          {loggingOut && <div className="logging-out-message">Logging out...</div>}
 
           {isAuthenticated && <Footer />}
           {isAuthenticated && <ScrollToTopButton />}
