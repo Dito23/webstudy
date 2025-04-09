@@ -14,7 +14,7 @@ function SignIn({ onSignIn }) {
 
   return (
     <div className="sign-in">
-      <h2>sign In IN IN IN </h2>
+      <h2>sign In</h2>
       <form>
         <GoogleLogin
           onSuccess={handleLoginSuccess}
